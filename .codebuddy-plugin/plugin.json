@@ -1,0 +1,104 @@
+{
+  "name": "wdj-cfo-expert-system",
+  "version": "1.1.0",
+  "description": "Wang Dongjie CFO Omni Expert System - a CFO-grade expert integrating 34 professional skills across capital operations & IPO, investment banking modeling & valuation, finance control & governance, audit & fraud examination, quantitative stock analysis (incl. A-share dragon-tiger board), plus AI infra (NVIDIA LLM routing), bilingual translation (IBCAT) and institutional research notes (BlackRock).",
+  "author": {
+    "name": "Wang Dongjie 王东杰",
+    "email": "Wdj_@163.com"
+  },
+  "homepage": {
+    "url": "https://clawhub.ai/yjkj999999",
+    "type": "clawhub"
+  },
+  "license": "MIT",
+  "keywords": [
+    "CFO",
+    "capital operations",
+    "IPO",
+    "investment banking",
+    "DCF valuation",
+    "financial modeling",
+    "group finance control",
+    "audit and risk governance",
+    "stock analysis"
+  ],
+  "agents": ["./agents/wdj-cfo-expert-system.md"],
+  "skills": [
+    "./skills/stock-master-hunter",
+    "./skills/super-stock-trading",
+    "./skills/cgma-finance",
+    "./skills/cgma-global-management-accountant",
+    "./skills/financial-statement-reading",
+    "./skills/cas-china-mastery",
+    "./skills/cpa-china-2026",
+    "./skills/cpa-china-2026-pro",
+    "./skills/wangdongjie-cfo-skill",
+    "./skills/cfo-super-expert-chs",
+    "./skills/cfo-super-expert-en",
+    "./skills/valuation-mastery",
+    "./skills/ms-financial-model",
+    "./skills/ms-investment-deck",
+    "./skills/super-advisor-investment-banking",
+    "./skills/dongmi",
+    "./skills/sse-listed-company-mastery",
+    "./skills/legal-risk-shield",
+    "./skills/sasac-performance-analyst",
+    "./skills/internal-audit-mastery",
+    "./skills/fraud-examination-mastery",
+    "./skills/mckinsey-100y-knowledge-base",
+    "./skills/gceo-global-ceo-skill-system",
+    "./skills/dbs-danaher-business-system",
+    "./skills/midea-management",
+    "./skills/super-middle-manager-academy",
+    "./skills/ms-ppt-style",
+    "./skills/ms-research-report",
+    "./skills/dfp-skill",
+    "./skills/a-share-dragon-tiger-report",
+    "./skills/stockmaster-hunter-ib-report",
+    "./skills/bii-blackrock-note",
+    "./skills/nvidia-llm",
+    "./skills/ibcat"
+  ],
+
+  "expertType": "agent",
+  "agentName": "wdj-cfo-expert-system",
+
+  "displayName": {
+    "en": "Wang Dongjie CFO Omni Expert System",
+    "zh": "王东杰CFO全能专家系统"
+  },
+  "profession": {
+    "en": "Senior Strategic Finance Expert · Listed Co. Capital Ops Lead · Group Finance Control & Risk Gov. Sr. Engineer",
+    "zh": "资深复合型战略财务专家 · 上市公司资本运作操盘手 · 集团化财务管控与风险治理高级工程师"
+  },
+  "displayDescription": {
+    "en": "A CFO-grade omni expert system bundling 34 professional skills, covering capital operations, IB modeling, valuation, M&A, audit risk control, A-share dragon-tiger board, institutional research notes and bilingual translation with investment-grade output.",
+    "zh": "整合34项专业技能的CFO全能系统，覆盖资本运作、投行估值、A股龙虎榜与中英双语，输出投资级方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "zh": "以王东杰CFO视角，为我的公司设计一份三年期资本运作与IPO路径规划。",
+    "en": "From Wang Dongjie's CFO perspective, design a three-year capital operations and IPO roadmap for my company."
+  },
+  "plugin": "wdj-cfo-expert-system",
+  "tags": [
+    { "en": "Capital Operations & IPO", "zh": "资本运作与IPO" },
+    { "en": "IB Modeling & Valuation", "zh": "投行建模与估值" },
+    { "en": "Finance Control & Audit Risk", "zh": "财务管控与审计风控" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "From Wang Dongjie's CFO perspective, design a three-year capital operations and IPO roadmap for my company.",
+      "zh": "以王东杰CFO视角，为我的公司设计一份三年期资本运作与IPO路径规划。"
+    },
+    {
+      "en": "Build a Morgan Stanley-standard DCF model for this company and deliver an investment-grade Excel workbook.",
+      "zh": "用摩根士丹利标准为这家公司搭建DCF估值模型，并输出投资级Excel工作簿。"
+    },
+    {
+      "en": "Run a group finance control and risk governance diagnostic and deliver a compliance gap list with a remediation plan.",
+      "zh": "做一次集团财务管控与风险治理诊断，输出合规漏洞清单与整改方案。"
+    }
+  ]
+}
